@@ -1,0 +1,2 @@
+import Train
+Train.train()
