@@ -1,4 +1,4 @@
 {
     "python.linting.pylintEnabled": true,
-    "python.pythonPath": "C:\\Users\\ronglu\\.azureml\\envs\\azureml_2ffb57cb85eac5669f4d09127f2be92f\\python.exe"
+    "python.pythonPath": "C:\\Users\\ronglu\\AppData\\Local\\Continuum\\anaconda3\\python.exe"
 }
