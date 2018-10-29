@@ -10,7 +10,7 @@ from azureml.core.model import Model
 def init():
     global model
     # retreive the path to the model file using the model name
-    model_path = Model.get_model_path('pima-trained-model.pkl')
+    model_path = Model.get_model_path('test2')
     model = joblib.load(model_path)
 
 def run(raw_data):
