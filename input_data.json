@@ -1,0 +1,45 @@
+{
+    "version": "0.2.0",
+    "data": [
+        {
+            "num_preg":1,
+            "glucose_conc":103,
+            "diastolic_bp":80,
+            "thickness":11,
+            "insulin":82,
+            "bmi":19.4,
+            "diab_pred":0.491,
+            "age":22
+        },
+        {
+            "num_preg":1,
+            "glucose_conc":101,
+            "diastolic_bp":50,
+            "thickness":15,
+            "insulin":36,
+            "bmi":24.2,
+            "diab_pred":0.526,
+            "age":26
+        },
+        {
+            "num_preg":5,
+            "glucose_conc":88,
+            "diastolic_bp":66,
+            "thickness":21,
+            "insulin":23,
+            "bmi":24.4,
+            "diab_pred":0.342,
+            "age":30
+        },
+        {
+            "num_preg":8,
+            "glucose_conc":176,
+            "diastolic_bp":90,
+            "thickness":34,
+            "insulin":300,
+            "bmi":33.7,
+            "diab_pred":0.467,
+            "age":58
+        }
+    ]
+}
