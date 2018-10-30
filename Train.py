@@ -11,10 +11,10 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.preprocessing import Imputer
 from sklearn.externals import joblib  
 
-DATA_PATH = "D:/Work Docs/AI/Demos/PimaData/pima-data.csv"
+DATA_PATH = "./data/pima-data.csv"
 BEST_SCORE_C_VAL = 0.3
 RANDOM_STATE = 42
-MODEL_PATH = "D:/Work Docs/AI/Demos/Test6/data/pima-trained-model.pkl"
+MODEL_PATH = "./data/pima-trained-model.pkl"
 
 def load_data(DATA_PATH):
     """Load data"""

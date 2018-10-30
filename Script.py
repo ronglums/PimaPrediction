@@ -29,7 +29,6 @@ trace1 = go.Scatter3d(
 )
 
 
-#x2, y2, z2 = np.random.multivariate_normal(np.array([0,0,0]), np.eye(3), 200).transpose()
 x2 = mdf['glucose_conc'] 
 y2 = mdf['thickness']
 z2 = mdf['diastolic_bp']
