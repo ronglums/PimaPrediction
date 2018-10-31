@@ -1,9 +1,4 @@
-#2D plotting
-plt.plot(C_values, recall_scores, "-")
-plt.xlabel("C value")
-plt.ylabel("recall score")
-
-
+#%%
 #3D plotting
 import plotly.plotly as py
 import plotly.graph_objs as go
@@ -60,9 +55,3 @@ layout = go.Layout(
 )
 fig = go.Figure(data=data, layout=layout)
 py.iplot(fig, filename='3d-scatter')
-
-
-# Save the model file
-from sklearn.externals import joblib  
-joblib.dump(lr_model, "./data/pima-trained-model.pkl")
-
